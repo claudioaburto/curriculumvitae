@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
 <body class="container-fluid p-lg-5 bg-body-secondary">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid p-lg-2">
+        <div class="container-fluid p-lg-2 d-flex">
             <a class="navbar-brand" href="index.html">Curriculum Vitae</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portafolio</a>
+                        <a class="nav-link" href="portafolio.html">Portafolio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -59,9 +59,10 @@
                     <img src="assets/img/IMG_2302.jpeg" class="rounded-circle" alt="Cinque Terre" width="370"
                         height="500">
                 </td>
-                <td class="p-md-5">
-                    <p class="fs-2">Perfil Profesional</p>
-                    <p class="fs-4">Proactivo, organizado y responsable, trabajo bajo presión, con buenas relaciones
+                <td class="p-md-5s">
+                    <p class="fs-2 p-5">Perfil Profesional</p>
+                    <p class="fs-5 p-lg-5">Proactivo, organizado y responsable, trabajo bajo presión, con buenas
+                        relaciones
                         interpersonales.
                         Siempre tengo la mejor disposicion para la realizacion de mi trabajo y adaptacion a nuevos
                         conocimientos.
@@ -75,64 +76,70 @@
     </div>
 
     <!-- fin Header -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
 
-    <div class="p-lg-2 ">
-        <h2>Informacion Personal</h2>
-        <table>
-            <tr>
-                <td><b>Nombre</b></td>
-                <td>Claudio Andres Aburto Medel</td>
-            </tr>
-            <tr>
-                <td><b>Direccion</b></td>
-                <td>Rio Claro #2882, Valle Grande, Lampa</td>
-            </tr>
-            <tr>
-                <td><b>Fono</b></td>
-                <td>+56932606371</td>
-            </tr>
-            <tr>
-                <td><b>Correo</b></td>
-                <td>claudioaburtomedel@yahoo.es</td>
-            </tr>
-            <tr>
-                <td><b>Nacionalidad</b></td>
-                <td> Chilena</td>
-            </tr>
-            <tr>
-                <td><b>Fecha de Nacimiento</b></td>
-                <td>04 de Julio de 1986</td>
-            </tr>
-            <tr>
-                <td><b>Estado Civíl</b></td>
-                <td>Soltero</td>
-            </tr>
-            <tr>
-                <td><b>Licencia de Conducir</b></td>
-                <td>A2, B y C al dia</td>
-            </tr>
-        </table>
-    </div>
-    <section class="bg-light">
+            <div class="section-title justify-content-center">
+                <h2>Sobre Mi</h2>
+                <p>Padrer de 3 hijos - Musico instrumentista especializado en Trombon - Como deporte me gusta y practico Tenis</p>
+            </div>
 
-        <h2 class="justify-content-sm-start">Redes Sociales</h2>
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="assets/img/imagenperfil2.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                    <h3>Técnico Superior en Informatica y redes - Técnico en Telecomunicaciones &amp; cargando conocimientos de Web Developer.</h3>
+                    
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Nacimiento:</strong> <span>4 julio 1986</span></li>                              
+                                <li><i class="bi bi-chevron-right"></i> <strong>Telefono:</strong> <span>+56932606371</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Pais, Ciudad y Comuna:</strong> <span>Santiago de chile,
+                                    Lampa</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Nacionalidad:</strong> <span>Chilena</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>37</span></li>
+                                
+                                <li><i class="bi bi-chevron-right"></i> <strong>Email personal:</strong>
+                                    <span>claudioaburtomedel@yahoo.es</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
+                                    <span>Pronto</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <div class="icono1">
+        </div>
+    </section>
+
+    <section class="iconos">
+
+        <h2 class="">Redes Sociales</h2>
+
+        <div class="feature_1">
             <i class="fas fa-brands fa-facebook fa-3x"></i>
             <p>Facebook</p>
         </div>
-        <div class="icono1">
+        <div class="feature_2">
             <i class="fa-brands fa-square-instagram fa-3x"></i>
-            <p>Instagram</p>
+            <a class="dropdown-item">Instagram</a>
         </div>
-        <div class="icono1">
+        <div class="feature_3">
             <i class="fa-brands fa-linkedin fa-3x"></i>
             <p>Linkdln</p>
         </div>
-        <div class="icono1">
+        <div class="feature_4">
             <i class="fa-solid fa-camera fa-3x"></i>
             <p>Proximamente Onlifans</p>
         </div>
+
     </section>
     <div>
         <h2>Experiencia Laboral</h2>
@@ -172,6 +179,7 @@
             <ul>
                 <li>Técnico en Telecomunicaciones - Titulado 2005</li>
                 <li>Técnico en Informatica y Redes - Titulado</li>
+                <li>Cursando BootCamp Desarrollo Fullstack - Desafío Latam</li>
             </ul>
         </table>
     </div>
