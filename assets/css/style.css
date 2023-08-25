@@ -1,4 +1,4 @@
-.iconos .feature_1, .iconos .feature_2, .iconos .feature_3 .feature_4 {
+.iconos .icono1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,56 +15,55 @@ section.iconos {
     font-weight: 700;
     font-size: 26px;
     color: #173b6c;
-  }
+}
+
+article .icono1 {
+    justify-content: space-around;
+}
   
-  .about .content ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .about .content ul li {
+.about .content ul li {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-  }
+}
   
-  .about .content ul strong {
+.about .content ul strong {
     margin-right: 10px;
-  }
+}
   
-  .about .content ul i {
+.about .content ul i {
     font-size: 16px;
     margin-right: 5px;
     color: #149ddd;
     line-height: 0;
-  }
+}
   
-  .about .content p:last-child {
+.about .content p:last-child {
     margin-bottom: 0;
-  }
-  section {
+}
+section {
     padding: 60px 0;
     overflow: hidden;
-  }
+}
   
-  .section-bg {
+.section-bg {
     background: #f5f8fd;
-  }
+}
   
-  .section-title {
+.section-title {
     padding-bottom: 30px;
-  }
+}
   
-  .section-title h2 {
+.section-title h2 {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
     color: #173b6c;
-  }
+}
   
-  .section-title h2::after {
+.section-title h2::after {
     content: "";
     position: absolute;
     display: block;
@@ -73,16 +72,16 @@ section.iconos {
     background: #149ddd;
     bottom: 0;
     left: 0;
-  }
+}
   
-  .section-title p {
+.section-title p {
     margin-bottom: 0;
-  }
-  .portfolio .portfolio-item {
+}
+.portfolio .portfolio-item {
     margin-bottom: 30px;
-  }
+}
   
-  .portfolio #portfolio-flters {
+.portfolio #portfolio-flters {
     padding: 0;
     margin: 0 auto 35px auto;
     list-style: none;
@@ -90,9 +89,9 @@ section.iconos {
     background: #fff;
     border-radius: 50px;
     padding: 2px 15px;
-  }
+}
   
-  .portfolio #portfolio-flters li {
+.portfolio #portfolio-flters li {
     cursor: pointer;
     display: inline-block;
     padding: 10px 15px 8px 15px;
@@ -103,25 +102,25 @@ section.iconos {
     color: #272829;
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
-  }
+}
   
-  .portfolio #portfolio-flters li:hover,
-  .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
     color: #149ddd;
-  }
+}
   
   .portfolio #portfolio-flters li:last-child {
     margin-right: 0;
-  }
+}
   
-  .portfolio .portfolio-wrap {
+.portfolio .portfolio-wrap {
     transition: 0.3s;
     position: relative;
     overflow: hidden;
     z-index: 1;
-  }
+}
   
-  .portfolio .portfolio-wrap::before {
+.portfolio .portfolio-wrap::before {
     content: "";
     background: rgba(255, 255, 255, 0.5);
     position: absolute;
@@ -132,9 +131,9 @@ section.iconos {
     transition: all ease-in-out 0.3s;
     z-index: 2;
     opacity: 0;
-  }
+}
   
-  .portfolio .portfolio-wrap .portfolio-links {
+.portfolio .portfolio-wrap .portfolio-links {
     opacity: 1;
     left: 0;
     right: 0;
@@ -144,35 +143,35 @@ section.iconos {
     transition: all ease-in-out 0.3s;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .portfolio .portfolio-wrap .portfolio-links a {
+.portfolio .portfolio-wrap .portfolio-links a {
     color: #fff;
     font-size: 28px;
     text-align: center;
     background: rgba(20, 157, 221, 0.75);
     transition: 0.3s;
     width: 50%;
-  }
+}
   
-  .portfolio .portfolio-wrap .portfolio-links a:hover {
+.portfolio .portfolio-wrap .portfolio-links a:hover {
     background: rgba(20, 157, 221, 0.95);
-  }
+}
   
-  .portfolio .portfolio-wrap .portfolio-links a+a {
+.portfolio .portfolio-wrap .portfolio-links a+a {
     border-left: 1px solid #37b3ed;
-  }
+}
   
-  .portfolio .portfolio-wrap:hover::before {
+.portfolio .portfolio-wrap:hover::before {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 1;
-  }
+}
   
-  .portfolio .portfolio-wrap:hover .portfolio-links {
+.portfolio .portfolio-wrap:hover .portfolio-links {
     opacity: 1;
     bottom: 0;
-  }
+}
   
